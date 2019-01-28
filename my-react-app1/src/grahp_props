@@ -1,0 +1,86 @@
+ this.setState({
+         chartData:{
+          labels: ['Boston','worcester','springfield',
+          'Lowell','Cambridge','New Bedford'],
+          datasets: [
+            {
+              label:'Popuation',
+              fill: false,
+               lineTension: 0.1,
+                //backgroundColor: 'rgba(75,192,192,0.4)',
+                borderColor: 'rgba(75,10,192,1)',
+                borderCapStyle: 'butt',
+                borderDash: [],
+                borderDashOffset: 0.0,
+                borderJoinStyle: 'miter',
+                pointBorderColor: 'rgba(10,192,192,1)',
+                pointBackgroundColor: '#fff',
+                pointBorderWidth: 1,
+                pointHoverRadius: 5,
+                pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+                pointHoverBorderColor: 'rgba(220,220,220,1)',
+                pointHoverBorderWidth: 2,
+                pointRadius: 1,
+                pointHitRadius: 10,
+              data:[
+                617594,
+                181045,
+                153870,
+                1530693,
+                1051623,
+                950725
+                ]
+
+              // ],
+              // backgroundColor:[
+              //   'rgb(255, 153, 102)',
+              //   'rgb(255, 102, 102)',
+              //   'rgb(255, 153, 102)',
+              //   'rgb(153, 153, 255)',
+              //   'rgb(204, 255, 204)',
+              //   'rgb(255, 153, 102)'
+              // ]
+            },
+            {
+              label:'Numer',
+              fill: false,
+               lineTension: 0.1,
+                backgroundColor: 'rgba(75,192,192,0.4)',
+                borderColor: 'rgba(75,192,192,1)',
+                borderCapStyle: 'butt',
+                borderDash: [],
+                borderDashOffset: 0.0,
+                borderJoinStyle: 'miter',
+                pointBorderColor: 'rgba(75,192,192,1)',
+                pointBackgroundColor: '#fff',
+                pointBorderWidth: 1,
+                pointHoverRadius: 5,
+                pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+                pointHoverBorderColor: 'rgba(220,220,220,1)',
+                pointHoverBorderWidth: 2,
+                pointRadius: 1,
+                pointHitRadius: 10,
+              data:[
+                
+                478561,
+                171045,
+                153870,
+                1000693,
+                1051623,
+                800725
+                ]
+
+              // ],
+              // backgroundColor:[
+              //   'rgb(255, 153, 102)',
+              //   'rgb(255, 102, 102)',
+              //   'rgb(255, 153, 102)',
+              //   'rgb(153, 153, 255)',
+              //   'rgb(204, 255, 204)',
+              //   'rgb(255, 153, 102)'
+              // ]
+            }
+
+          ]
+        }
+    });
